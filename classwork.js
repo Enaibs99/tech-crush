@@ -1,0 +1,18 @@
+let msg = "  Hello, WORLD!  "
+let Removwhitespace = msg.trim()
+let Start = msg.startsWith("HELLO")
+let End = msg.endsWith("WORLD!")
+let smallletter = msg.toLowerCase()
+let position = msg.indexOf("WORLD!")
+let replaceText = msg.replace("WORLD", "NIGERIA")
+let replacerealText = msg.replaceAll("L", "1")
+let slicestrings = msg.slice(3,8)
+
+console.log(Removwhitespace)
+console.log(Start)
+console.log(End)
+console.log(smallletter)
+console.log(position)
+console.log(replaceText)
+console.log(replacerealText)
+console.log(slicestrings)
